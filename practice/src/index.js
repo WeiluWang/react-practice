@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MenuAppBar from './navbar';
+import ComplexGrid from './card'
+import FullWidthGrid from './container'
+import TiltebarGridList from './TitlebarGridList'
+import SimpleBottomNavigation from './footbar'
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+    <FullWidthGrid />
+    <MenuAppBar />
+    <SimpleBottomNavigation />
   </React.StrictMode>,
   document.getElementById('root')
 );
