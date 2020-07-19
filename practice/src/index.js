@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Mybar from './Myappbar';
+import MyGridList from './Mygridlist';
+import Grid from '@material-ui/core/Grid';
+import Mybar2 from './Myappbar2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     
+      <Mybar></Mybar>
+      
+      <MyGridList></MyGridList>
+      
+    
+
   </React.StrictMode>,
   document.getElementById('root')
 );
